@@ -11,6 +11,7 @@ class _SearchScreenState extends State<SearchScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         //leading: null,
         //automaticallyImplyLeading: false,
@@ -28,7 +29,9 @@ class _SearchScreenState extends State<SearchScreen> {
         ),
         actions: [],
       ),
-      body: const Center(child: Text("Halaman Pencarian"),),
+      body: Container(
+        child: Center(child: Image.asset("assets/commingsoon.jpg")),
+      ),
     );
   }
 }

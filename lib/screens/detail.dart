@@ -10,6 +10,14 @@ class DetailScreen extends StatefulWidget {
 class _DetailScreenState extends State<DetailScreen> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      backgroundColor: Colors.white,
+      appBar: AppBar(
+        title:  const Text("Detail Buku"),
+      ),
+      body: Container(
+        child: Center(child: Image.asset("assets/commingsoon.jpg")),
+      ),
+    );
   }
 }

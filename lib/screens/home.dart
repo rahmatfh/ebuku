@@ -1,3 +1,4 @@
+import 'package:ebuku/screens/detail.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -73,35 +74,68 @@ class _HomeScreenState extends State<HomeScreen> {
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Container(
-                            margin: const EdgeInsets.all(8.0),
-                            width: 200,
-                            height: 300,
-                            decoration: BoxDecoration(
-                              color: Colors.amber,
-                              borderRadius: BorderRadius.circular(12),
+                          InkWell(
+                            child: Container(
+                              margin: const EdgeInsets.all(8.0),
+                              width: 200,
+                              height: 300,
+                              decoration: BoxDecoration(
+                                color: Colors.amber,
+                                borderRadius: BorderRadius.circular(12),
+                                image: const DecorationImage(
+                                    image: AssetImage("assets/cover/cover001.png")
+                                ),
+                              ),
+                              child: const SizedBox(),
                             ),
-                            child: const Center(child: Text("Satu")),
+                            onTap: (){
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => const DetailScreen())
+                              );
+                            },
                           ),
-                          Container(
-                            margin: const EdgeInsets.all(8.0),
-                            width: 200,
-                            height: 300,
-                            decoration: BoxDecoration(
-                              color: Colors.amber,
-                              borderRadius: BorderRadius.circular(12),
+                          InkWell(
+                            child: Container(
+                              margin: const EdgeInsets.all(8.0),
+                              width: 200,
+                              height: 300,
+                              decoration: BoxDecoration(
+                                color: Colors.amber,
+                                borderRadius: BorderRadius.circular(12),
+                                image: const DecorationImage(
+                                    image: AssetImage("assets/cover/cover002.png")
+                                ),
+                              ),
+                              child: const SizedBox(),
                             ),
-                            child: const Center(child: Text("Dua")),
+                            onTap: (){
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => const DetailScreen())
+                              );
+                            },
                           ),
-                          Container(
-                            margin: const EdgeInsets.all(8.0),
-                            width: 200,
-                            height: 300,
-                            decoration: BoxDecoration(
-                              color: Colors.amber,
-                              borderRadius: BorderRadius.circular(12),
+                          InkWell(
+                            child: Container(
+                              margin: const EdgeInsets.all(8.0),
+                              width: 200,
+                              height: 300,
+                              decoration: BoxDecoration(
+                                color: Colors.amber,
+                                borderRadius: BorderRadius.circular(12),
+                                image: const DecorationImage(
+                                    image: AssetImage("assets/cover/cover003.png")
+                                ),
+                              ),
+                              child: const SizedBox(),
                             ),
-                            child: const Center(child: Text("Tiga")),
+                            onTap: (){
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => const DetailScreen())
+                              );
+                            },
                           ),
                         ],
                       ),
@@ -138,35 +172,68 @@ class _HomeScreenState extends State<HomeScreen> {
                       Row(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Container(
-                            margin: const EdgeInsets.all(8.0),
-                            width: 200,
-                            height: 300,
-                            decoration: BoxDecoration(
-                              color: Colors.amber,
-                              borderRadius: BorderRadius.circular(12),
+                          InkWell(
+                            child: Container(
+                              margin: const EdgeInsets.all(8.0),
+                              width: 200,
+                              height: 300,
+                              decoration: BoxDecoration(
+                                color: Colors.amber,
+                                borderRadius: BorderRadius.circular(12),
+                                image: const DecorationImage(
+                                    image: AssetImage("assets/cover/cover004.png")
+                                ),
+                              ),
+                              child: const SizedBox(),
                             ),
-                            child: const Center(child: Text("Satu")),
+                            onTap: (){
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => const DetailScreen())
+                              );
+                            },
                           ),
-                          Container(
-                            margin: const EdgeInsets.all(8.0),
-                            width: 200,
-                            height: 300,
-                            decoration: BoxDecoration(
-                              color: Colors.amber,
-                              borderRadius: BorderRadius.circular(12),
+                          InkWell(
+                            child: Container(
+                              margin: const EdgeInsets.all(8.0),
+                              width: 200,
+                              height: 300,
+                              decoration: BoxDecoration(
+                                color: Colors.amber,
+                                borderRadius: BorderRadius.circular(12),
+                                image: const DecorationImage(
+                                    image: AssetImage("assets/cover/cover005.png")
+                                ),
+                              ),
+                              child: const SizedBox(),
                             ),
-                            child: const Center(child: Text("Dua")),
+                            onTap: (){
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => const DetailScreen())
+                              );
+                            },
                           ),
-                          Container(
-                            margin: const EdgeInsets.all(8.0),
-                            width: 200,
-                            height: 300,
-                            decoration: BoxDecoration(
-                              color: Colors.amber,
-                              borderRadius: BorderRadius.circular(12),
+                          InkWell(
+                            child: Container(
+                              margin: const EdgeInsets.all(8.0),
+                              width: 200,
+                              height: 300,
+                              decoration: BoxDecoration(
+                                color: Colors.amber,
+                                borderRadius: BorderRadius.circular(12),
+                                image: const DecorationImage(
+                                    image: AssetImage("assets/cover/cover006.png")
+                                ),
+                              ),
+                              child: const SizedBox(),
                             ),
-                            child: const Center(child: Text("Tiga")),
+                            onTap: (){
+                              Navigator.push(
+                                  context,
+                                  MaterialPageRoute(builder: (context) => const DetailScreen())
+                              );
+                            },
                           ),
                         ],
                       ),
